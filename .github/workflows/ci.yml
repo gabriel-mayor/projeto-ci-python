@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Baixar o código do reppositório
-        uses: actions/chekout@v4
+        uses: actions/checkout@v4
       - name: Prepara o Python  
         uses: actions/setup-python@v5
         with:
